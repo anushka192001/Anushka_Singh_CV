@@ -15,6 +15,7 @@ export default function Projects() {
               <li data-target="#demo" data-slide-to="2"></li>
               <li data-target="#demo" data-slide-to="3"></li>
               <li data-target="#demo" data-slide-to="4"></li>
+              <li data-target="#demo" data-slide-to="5"></li>
              
             </ul>
             <div class="carousel-inner">
@@ -65,6 +66,21 @@ and overall complexity.</p>
                   <p><a href="https://github.com/anushka192001/four-connect-game-against-AI">link</a></p>
                 </div> 
               </div>
+
+
+              <div class="carousel-item">
+                <img src="images/jigsaw_puzzle.jpg" alt="jigsaw-puzzle-game" class="carousel_style"/>
+                <div class="carousel-caption carousel_caption_bg_color">
+                  <h3>Jigsaw Puzzle</h3>
+                  <p>feature to login, play and save your score to the main-board, structured the web pages and defined elements using HTML5 for puzzle interface, including responsive design and animations using CSS3 interactive functionality such as puzzle piece movement, user input handling, and cookie management.
+Ensured the game adapts to various screen sizes (mobile, tablet, desktop) using Media Queries.
+Created and updated the dynamic elements (buttons, images, ranking tables) using JavaScript for DOM manupulation.
+Functionality for handling user actions (e.g., clicks, dragging puzzle pieces, button presses) using Event Listeners.
+For persistant storage of data, scores,rankings and leaderboard even after closing the browser, implemented cookies effectively.</p>
+                  <p><a href="https://github.com/anushka192001/jigsaw_puzzle_game">link</a></p>
+                </div> 
+              </div>
+
 
               <div class="carousel-item">
                 <img src="images/project_8_img.jpg" alt="bot-design" class="carousel_style"/>
