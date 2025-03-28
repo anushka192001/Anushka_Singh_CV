@@ -1,2 +1,2 @@
 # Anushka_Singh_CV
-https://github.com/anushka192001/Anushka_Singh_CV
+https://anushka-singh-cv-nu.vercel.app/projects
