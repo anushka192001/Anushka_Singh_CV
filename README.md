@@ -1,2 +1,2 @@
 # Anushka_Singh_CV
-https://anushka-singh-cv-six.vercel.app/
+anushka-singh-cv-fai6.vercel.app
