@@ -1,3 +1,36 @@
+@media screen and (max-width: 991px) { 
+  .hero-container h1 { 
+    font-size: 65px !important; 
+  } 
+  .hero-container p { 
+    font-size: 24px !important; 
+  } 
+
+  .hero-container img {
+    width: 300px !important;
+    height: 300px !important; /* adjust as needed */
+  }
+  
+}
+
+@media screen and (max-width: 768px) { 
+  .hero-container h1 { 
+    font-size: 45px !important; 
+  } 
+  .hero-container p { 
+    font-size: 20px !important; 
+    max-width: 90% !important; /* Ensures text doesn't overflow */
+  } 
+
+  .hero-container img {
+    width: 100px;
+    height: 100px; /* adjust as needed */
+  }
+  
+}
+
+
+
 video {
   object-fit: cover;
   width: 100%;

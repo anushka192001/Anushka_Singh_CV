@@ -27,9 +27,7 @@ export default function Projects() {
                 <div class="carousel-caption carousel_caption_bg_color">
                   <h3>software for minute vulnerabilities detection in java code files</h3>
                   <p>Succesfully developed the software with a unique approach that utilizes code property graphs to uncover and model
-vulnerabilities in java code, surpassing Stanford’s CoreNLP, which relied solely on AST, in terms of accuracy rate.
-The objective was to incorporate not only the conventional abstract syntax tree but also the comprehensive analysis of
-three distinct components—- abstract syntax trees, code flow graphs, and program dependency graphs.</p>
+vulnerabilities in java code, surpassing Stanford’s CoreNLP, which relied solely on AST, in terms of accuracy rate.</p>
                   <p><a href="https://github.com/anushka192001/generate_cpg_embeddings_for_java_code_files">link</a></p>
               </div>
               </div>
@@ -39,10 +37,7 @@ three distinct components—- abstract syntax trees, code flow graphs, and progr
                 <img src="images/project_7_img.jpg" alt="greeting-cards-aplication" class="carousel_style"/>
                 <div class="carousel-caption carousel_caption_bg_color">
                   <h3>Fin-num claim</h3>
-                  <p>Developed a weak supervision hybrid model to detect impactful claims in financially relevant sentences of analyst reports
-and earning call transcripts for its future earning surprise and stock price prediction with 93% accuracy.
-This model achieves comparable accuracy to complex models like Bert while significantly reducing computational costs
-and overall complexity.</p>
+                  <p>Developed a hybrid model to detect impactful financial claims with 93% accuracy, matching BERT while reducing cost and complexity.</p>
                   <p><a href="https://github.com/gtfintechlab/fin-num-claim">link</a></p>
               </div> 
               </div>
@@ -72,11 +67,7 @@ and overall complexity.</p>
                 <img src="images/jigsaw_puzzle.jpg" alt="jigsaw-puzzle-game" class="carousel_style"/>
                 <div class="carousel-caption carousel_caption_bg_color">
                   <h3>Jigsaw Puzzle</h3>
-                  <p>feature to login, play and save your score to the main-board, structured the web pages and defined elements using HTML5 for puzzle interface, including responsive design and animations using CSS3 interactive functionality such as puzzle piece movement, user input handling, and cookie management.
-Ensured the game adapts to various screen sizes (mobile, tablet, desktop) using Media Queries.
-Created and updated the dynamic elements (buttons, images, ranking tables) using JavaScript for DOM manupulation.
-Functionality for handling user actions (e.g., clicks, dragging puzzle pieces, button presses) using Event Listeners.
-For persistant storage of data, scores,rankings and leaderboard even after closing the browser, implemented cookies effectively.</p>
+                  <p>Built a responsive puzzle game with login, score saving, animations, and interactive features using HTML5, CSS3, and JavaScript, with persistent storage via cookies..</p>
                   <p><a href="https://github.com/anushka192001/jigsaw_puzzle_game">link</a></p>
                 </div> 
               </div>
