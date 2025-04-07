@@ -11,12 +11,15 @@ export default function Contacts() {
 
   const [status, setStatus] = useState("");
 
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
 
     try {
-      const response = await fetch("https://anushka-singh-cv-1.onrender.com/submit-form", {
+      const response = await fetch("https://anushka-singh-cv.onrender.com/submit-form", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData)
@@ -33,10 +36,6 @@ export default function Contacts() {
       setStatus("❌ Server error, try again later.");
     }
   };
-
-
-
-  
 
   return (
     <div id="contact" className="container-fluid pt-5">
