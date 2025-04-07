@@ -33,9 +33,9 @@ app.post("/submit-form", async (req, res) => {
     subject: `New Contact Form Submission: ${subject}`,
     text: `You received a new message:\n\nName: ${name}\nEmail: ${email}\nMessage: ${message}`
   };
-
+  
   try {
-    await transporter.sendMail(mailOptions);
+    transporter.sendMail(mailOptions);
     res.status(200).json({ message: "✅ Email sent successfully!" });
   } catch (error) {
     res.status(500).json({ error: "❌ Error sending email" });
