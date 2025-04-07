@@ -19,7 +19,7 @@ export default function Contacts() {
     e.preventDefault();
 
     try {
-      const response = await fetch("https://anushka-singh-cv.onrender.com/submit-form", {
+      const response = await fetch("https://anushka-singh-cv-1.onrender.com/submit-form", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData)
