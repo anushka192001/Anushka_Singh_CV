@@ -23,7 +23,7 @@ export default function Contacts() {
   setFormData({ name: "", subject: "", email: "", message: "" });
 
   // Fire and forget: don’t wait for the response
-  fetch("https://anushka-singh-cv.onrender.com/submit-form", {
+  fetch("https://anushka-singh-cv-1.onrender.com/submit-form", {
     method: "POST", 
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(formData)
