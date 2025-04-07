@@ -12,26 +12,31 @@ export default function Contacts() {
   const [status, setStatus] = useState("");
 
 
-
   const handleSubmit = async (e) => {
-  e.preventDefault();
+    e.preventDefault();
 
-  // Optimistically update the status right away
-  setStatus("✅ Message sent (processing in background)...");
+    try {
+      const response = await fetch("https://anushka-singh-cv-1.onrender.com/submit-form", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData)
+      });
 
-  // Clear the form immediately
-  setFormData({ name: "", subject: "", email: "", message: "" });
+      const result = await response.json();
+      if (response.ok) {
+        setStatus("✅ Email sent successfully!");
+        setFormData({ name: "", subject: "", email: "", message: "" });
+      } else {
+        setStatus("❌ Error sending email.");
+      }
+    } catch (error) {
+      setStatus("❌ Server error, try again later.");
+    }
+  };
 
-  // Fire and forget: don’t wait for the response
-  fetch("https://anushka-singh-cv-1.onrender.com/submit-form", {
-    method: "POST", 
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify(formData)
-  }).catch(() => {
-    // Optional: you can silently fail or update status on failure
-    console.error("Server error. Email might not have been sent.");
-  });
-};
+
+
+  
 
   return (
     <div id="contact" className="container-fluid pt-5">
